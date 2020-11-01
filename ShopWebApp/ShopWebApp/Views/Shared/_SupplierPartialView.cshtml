@@ -1,0 +1,14 @@
+﻿@model IEnumerable<ShopWebApp.Models.DataModels.Supplier>
+<div class=" rsidebar span_1_of_left">
+    <div class="of-left">
+        <h3 class="cate">SẢN PHẨM</h3>
+    </div>
+    <ul class="menu">
+        @foreach (var item in Model)
+        {
+            <li class="item1">
+                <a asp-controller="Product" asp-action="Index" asp-route-mahang="@item.Id">@item.Name</a>
+            </li>
+        }
+    </ul>
+</div>

@@ -1,0 +1,65 @@
+C:\Users\Admin\Desktop\Shop_Core\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.deps.json
+C:\Users\Admin\Desktop\Shop_Core\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.runtimeconfig.json
+C:\Users\Admin\Desktop\Shop_Core\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Shop_Core\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.dll
+C:\Users\Admin\Desktop\Shop_Core\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Shop_Core\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Shop_Core\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Shop_Core\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.pdb
+C:\Users\Admin\Desktop\Shop_Core\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.dll
+C:\Users\Admin\Desktop\Shop_Core\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.pdb
+C:\Users\Admin\Desktop\Shop_Core\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Shop_Core - Copy\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.deps.json
+C:\Users\Admin\Desktop\Shop_Core - Copy\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.runtimeconfig.json
+C:\Users\Admin\Desktop\Shop_Core - Copy\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Shop_Core - Copy\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.dll
+C:\Users\Admin\Desktop\Shop_Core - Copy\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.pdb
+C:\Users\Admin\Desktop\Shop_Core - Copy\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Shop_Core - Copy\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Shop_Core - Copy\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Shop_Core - Copy\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Shop_Core - Copy\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.dll
+C:\Users\Admin\Desktop\Shop_Core - Copy\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.pdb
+C:\Users\Admin\Desktop\Shop_Core - Demo\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.deps.json
+C:\Users\Admin\Desktop\Shop_Core - Demo\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.runtimeconfig.json
+C:\Users\Admin\Desktop\Shop_Core - Demo\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Shop_Core - Demo\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.dll
+C:\Users\Admin\Desktop\Shop_Core - Demo\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.pdb
+C:\Users\Admin\Desktop\Shop_Core - Demo\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Shop_Core - Demo\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Shop_Core - Demo\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Shop_Core - Demo\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Shop_Core - Demo\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.dll
+C:\Users\Admin\Desktop\Shop_Core - Demo\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.pdb
+E:\Downloads\Shop - 2019 - 04 - 10 Final\Shop_Core\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.csprojAssemblyReference.cache
+E:\Downloads\Shop - 2019 - 04 - 10 Final\Shop_Core\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.AssemblyInfoInputs.cache
+E:\Downloads\Shop - 2019 - 04 - 10 Final\Shop_Core\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.AssemblyInfo.cs
+E:\Downloads\Shop - 2019 - 04 - 10 Final\Shop_Core\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.csproj.CoreCompileInputs.cache
+E:\Downloads\Shop - 2019 - 04 - 10 Final\Shop_Core\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.dll
+E:\Downloads\Shop - 2019 - 04 - 10 Final\Shop_Core\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.pdb
+E:\Downloads\Shop - 2019 - 04 - 10 Final\Shop_Core\Shop_Core\bin\Debug\netcoreapp2.0\appsettings.Development.json
+E:\Downloads\Shop - 2019 - 04 - 10 Final\Shop_Core\Shop_Core\bin\Debug\netcoreapp2.0\appsettings.json
+E:\Downloads\Shop - 2019 - 04 - 10 Final\Shop_Core\Shop_Core\bin\Debug\netcoreapp2.0\bundleconfig.json
+E:\Downloads\Shop - 2019 - 04 - 10 Final\Shop_Core\Shop_Core\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+E:\Downloads\Shop - 2019 - 04 - 10 Final\Shop_Core\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.deps.json
+E:\Downloads\Shop - 2019 - 04 - 10 Final\Shop_Core\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.runtimeconfig.json
+E:\Downloads\Shop - 2019 - 04 - 10 Final\Shop_Core\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.runtimeconfig.dev.json
+E:\Downloads\Shop - 2019 - 04 - 10 Final\Shop_Core\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.dll
+E:\Downloads\Shop - 2019 - 04 - 10 Final\Shop_Core\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.pdb
+E:\Downloads\Shop - 2019 - 04 - 10 Final\Shop_Core\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.genruntimeconfig.cache
+E:\Project_TN_ThayTru\TTTN\Shop_Core\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.dll
+E:\Project_TN_ThayTru\TTTN\Shop_Core\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.pdb
+E:\Project_TN_ThayTru\TTTN\Shop_Core\Shop_Core\bin\Debug\netcoreapp2.0\appsettings.Development.json
+E:\Project_TN_ThayTru\TTTN\Shop_Core\Shop_Core\bin\Debug\netcoreapp2.0\appsettings.json
+E:\Project_TN_ThayTru\TTTN\Shop_Core\Shop_Core\bin\Debug\netcoreapp2.0\bundleconfig.json
+E:\Project_TN_ThayTru\TTTN\Shop_Core\Shop_Core\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+E:\Project_TN_ThayTru\TTTN\Shop_Core\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.deps.json
+E:\Project_TN_ThayTru\TTTN\Shop_Core\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.runtimeconfig.json
+E:\Project_TN_ThayTru\TTTN\Shop_Core\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.runtimeconfig.dev.json
+E:\Project_TN_ThayTru\TTTN\Shop_Core\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.dll
+E:\Project_TN_ThayTru\TTTN\Shop_Core\Shop_Core\bin\Debug\netcoreapp2.0\Shop_Core.pdb
+E:\Project_TN_ThayTru\TTTN\Shop_Core\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.csprojAssemblyReference.cache
+E:\Project_TN_ThayTru\TTTN\Shop_Core\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.AssemblyInfoInputs.cache
+E:\Project_TN_ThayTru\TTTN\Shop_Core\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.AssemblyInfo.cs
+E:\Project_TN_ThayTru\TTTN\Shop_Core\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.csproj.CoreCompileInputs.cache
+E:\Project_TN_ThayTru\TTTN\Shop_Core\Shop_Core\obj\Debug\netcoreapp2.0\Shop_Core.genruntimeconfig.cache

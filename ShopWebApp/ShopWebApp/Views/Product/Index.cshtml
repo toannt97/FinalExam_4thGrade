@@ -1,0 +1,36 @@
+﻿@model IEnumerable<ShopWebApp.Models.DataModels.Product>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_FrontEndLayout.cshtml";
+}
+
+<div class="col-md-9 product1">
+    @foreach (var product in Model)
+    {
+        <div class="col-md-4 home-grid" style="position:relative">
+            <div class="home-product-main">
+                <div class="home-product-top">
+                    <a style="text-decoration:none" asp-action="ChiTiet" asp-route-id="@product.Id"><img src="@ViewBag.domainUrl/HinhAnh/SanPham/@product.Image" style="width:60%" ;></a>
+                </div>
+                <div class="home-product-bottom">
+                    <h6><a style="text-decoration:none" asp-action="ChiTiet" asp-route-id="@product.Id"></a></h6>
+                    <span>Giá sản phẩm: @product.UnitPrice.ToString("#,##0") VNĐ</span>
+                </div>
+            </div>
+            <br />
+        </div>
+    }
+</div>
+<div class="clearfix"> </div>
+<br />
+<br />
+<nav class="in">
+    Trang hiện tại : @(ViewBag.PageNumber + 1) / @(ViewBag.TotalPage)
+    <div>
+        <a class="btn btn-default @(ViewBag.PageNumber == 0 ? "disabled" : "")" asp-action="Index" asp-route-pageNo="0" asp-route-mahang="@ViewBag.MaHang">Đầu</a>
+        <a class="btn btn-default @(ViewBag.PageNumber == 0 ? "disabled" : "")" asp-action="Index" asp-route-pageNo="@(ViewBag.PageNumber - 1)" asp-route-mahang="@ViewBag.MaHang">Trước</a>
+        <a class="btn btn-default @((ViewBag.PageNumber == ViewBag.TotalPage -1) ? "disabled" : "")" asp-action="Index" asp-route-pageNo="@(ViewBag.PageNumber + 1)" asp-route-mahang="@ViewBag.MaHang">Kế</a>
+        <a class="btn btn-default @((ViewBag.PageNumber == ViewBag.TotalPage -1) ? "disabled" : "")" asp-action="Index" asp-route-pageNo="@(ViewBag.TotalPage -1)" asp-route-mahang="@ViewBag.MaHang">Cuối</a>
+    </div>
+</nav>
+

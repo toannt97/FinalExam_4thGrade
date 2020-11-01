@@ -1,0 +1,145 @@
+﻿<!--@model IEnumerable<register-form.Models.DataModels.CartItem>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_FrontEndLayout.cshtml";
+}
+<table class="col-md-9">
+    <thead>
+        <tr>
+            <th>Hình</th>
+            <th>Tên</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+            <th>Thành tiền</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td><img src="@ViewBag.domainUrl/HinhAnh/SanPham/@item.SanPhamChonMua.Hinh" height="80" /></td>
+                <td>@item.SanPhamChonMua.TenSp</td>
+                <td>@item.SanPhamChonMua.DonGia</td>
+                <td><input class="cartItem" data-masp="@item.SanPhamChonMua.Id" data-dongia="@item.SanPhamChonMua.DonGia" min="0" type="number"  value="@item.SoLuong" style="width: 50px"/></td>
+                <td id="thanhtien-@item.SanPhamChonMua.Id">@item.ThanhTien.ToString("#,##0") VNĐ</td>
+                <td>
+                    <input type="button" class="removeCart btn btn-primary" data-masp="@item.SanPhamChonMua.Id" value="X" />
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div>
+    <br />
+    <br />
+    <br />
+    <div>Tổng tiền: <span id="tongtien">@Model.Sum(p => p.ThanhTien).ToString("#,##0") VNĐ</span></div>
+    <a asp-action="Index" class="btn btn-default" asp-controller="SanPham">Mua tiếp</a>
+    <input id="btnCapNhat" type="button" class="btn btn-default" value="Cập nhật">
+    <a asp-action="ClearCart" class="btn btn-default" asp-controller="GioHang">Xóa giỏ hàng</a>
+    <a class="btn btn-default" href="" data-toggle="modal" data-target="#myModal">Thanh toán</a>-->
+    @*<a asp-action="Payment"  asp-controller="GioHang" class="btn btn-default">Thanh toán</a>*@
+    <!-- Modal -->
+    <!--<div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">-->
+            <!-- Modal content-->
+            <!--<div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Nhập thông tin khách hàng thanh toán</h4>
+                </div>
+                <div class="modal-body">
+                    <form asp-action="Payment" asp-controller="GioHang" method="post">
+                        <div class="form-group">
+                            <label class="control-label">Họ tên</label>
+                            <input type="text" class="form-control" name="hoTen" />
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Số điện thoại</label>
+                            <input type="text" class="form-control" name="sdt" />
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Email</label>
+                            <input type="text" class="form-control" name="email" />
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Địa chỉ</label>
+                            <input type="text" class="form-control" name="diaChi" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Thanh toán" class="btn btn-default" />
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Hủy bỏ</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+<script>
+    $(function () {
+        $(".removeCart").click(function () {
+            var masp = $(this).attr("data-masp");
+            var tr = $(this).closest("tr");
+            $.ajax({
+                url: "/GioHang/RemoveCart",
+                data: {
+                    "masp": masp,
+                },
+                success: function (result) {
+                    console.log(result);
+                    if (result.status) {
+                        tr.remove();
+                        $("#tongtien").html(result.tongTien);
+                    }
+                },
+                error: function (rs) {
+                    alert("Lỗi")
+                }
+            });
+
+        });
+    });
+    $(function () {
+        $("#btnCapNhat").click(function () {
+            var sanphams = new Array();
+            var soluongs = new Array();
+            $(".cartItem").each(function () {
+                soluongs.push($(this).val());
+                sanphams.push($(this).attr("data-masp"));
+            });
+            $.ajax({
+                url: "/GioHang/UpdateCart",
+                data: {
+                    "productList": sanphams,
+                    "amountList": soluongs,
+                },
+                type: "POST",
+                success: function (result) {
+                    console.log(result);
+                    if (result.status) {
+                        $("#tongtien").html(result.tongTien);
+                        $("#thanhtien").html(result.tongTien);
+                    }
+                },
+                error: function (rs) {
+                    alert("Lỗi")
+                }
+            });
+
+        });
+    });
+    $(function () {
+        $(".cartItem").change(function () {
+            var soluong = parseInt($(this).val());
+            var dongia = parseFloat($(this).attr("data-dongia"));
+            var thanhtien = soluong * dongia;
+            $("#thanhtien-" + $(this).attr("data-masp")).html(thanhtien.toLocaleString("en") + " VNĐ");
+        });
+    });
+</script>-->

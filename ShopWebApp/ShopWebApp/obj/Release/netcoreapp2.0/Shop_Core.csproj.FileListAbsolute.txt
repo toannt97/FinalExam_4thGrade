@@ -1,0 +1,22 @@
+C:\Users\Admin\Desktop\Shop_Core\Shop_Core\bin\Release\netcoreapp2.0\Shop_Core.deps.json
+C:\Users\Admin\Desktop\Shop_Core\Shop_Core\bin\Release\netcoreapp2.0\Shop_Core.runtimeconfig.json
+C:\Users\Admin\Desktop\Shop_Core\Shop_Core\bin\Release\netcoreapp2.0\Shop_Core.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Shop_Core\Shop_Core\bin\Release\netcoreapp2.0\Shop_Core.dll
+C:\Users\Admin\Desktop\Shop_Core\Shop_Core\bin\Release\netcoreapp2.0\Shop_Core.pdb
+C:\Users\Admin\Desktop\Shop_Core\Shop_Core\obj\Release\netcoreapp2.0\Shop_Core.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Shop_Core\Shop_Core\obj\Release\netcoreapp2.0\Shop_Core.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Shop_Core\Shop_Core\obj\Release\netcoreapp2.0\Shop_Core.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Shop_Core\Shop_Core\obj\Release\netcoreapp2.0\Shop_Core.dll
+C:\Users\Admin\Desktop\Shop_Core\Shop_Core\obj\Release\netcoreapp2.0\Shop_Core.pdb
+C:\Users\Admin\Desktop\Shop_Core\Shop_Core\obj\Release\netcoreapp2.0\Shop_Core.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Shop_Core - Demo\Shop_Core\bin\Release\netcoreapp2.0\Shop_Core.deps.json
+C:\Users\Admin\Desktop\Shop_Core - Demo\Shop_Core\bin\Release\netcoreapp2.0\Shop_Core.runtimeconfig.json
+C:\Users\Admin\Desktop\Shop_Core - Demo\Shop_Core\bin\Release\netcoreapp2.0\Shop_Core.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Shop_Core - Demo\Shop_Core\bin\Release\netcoreapp2.0\Shop_Core.dll
+C:\Users\Admin\Desktop\Shop_Core - Demo\Shop_Core\bin\Release\netcoreapp2.0\Shop_Core.pdb
+C:\Users\Admin\Desktop\Shop_Core - Demo\Shop_Core\obj\Release\netcoreapp2.0\Shop_Core.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Shop_Core - Demo\Shop_Core\obj\Release\netcoreapp2.0\Shop_Core.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Shop_Core - Demo\Shop_Core\obj\Release\netcoreapp2.0\Shop_Core.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Shop_Core - Demo\Shop_Core\obj\Release\netcoreapp2.0\Shop_Core.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Shop_Core - Demo\Shop_Core\obj\Release\netcoreapp2.0\Shop_Core.dll
+C:\Users\Admin\Desktop\Shop_Core - Demo\Shop_Core\obj\Release\netcoreapp2.0\Shop_Core.pdb

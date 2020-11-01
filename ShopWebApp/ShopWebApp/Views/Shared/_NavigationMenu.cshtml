@@ -1,0 +1,32 @@
+﻿@model List<ShopWebApp.Models.DataModels.Category>
+
+<div class="container">
+    <div class="head-top">
+        <div class="logo">
+            <a asp-controller="Product" asp-action="Index"><img src="~/images/logo.png" alt=""></a>
+        </div>
+        <div class="h_menu4">
+            <ul class="memenu skyblue">
+                @{
+                    string[] color = { "color1", "color2", "color3", "color4" };
+                    int i = 0;
+                }
+                @foreach (var item in Model)
+                {
+                    i++;
+                    if (i == 4)
+                    {
+                        i = 0;
+                    }
+                    <li>
+                        <a class="@color[i]" asp-controller="Product" asp-action="Index" asp-route-supplierId="@item.Id">@item.Name</a>
+                    </li>
+                    
+                }
+                <li>
+                    <a class="color6" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>CỬA HÀNG LAPTOP PTITHCM</title>
+    <link href="~/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <script src="~/js/jquery.min.js"></script>
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="CỬA HÀNG LAPTOP PTITHCM" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'><!--//fonts-->
+    <link href="~/css/memenu.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript" src="~/js/memenu.js"></script>
+    <script>$(document).ready(function () { $(".memenu").memenu(); });</script>
+    <script>
+        $(function () {
+            $("#txtSearch").keyup(function () {
+                $.ajax({
+                    url: "/Product/Search",
+                    type: "post",
+                    data: { "Keyword": $(this).val() },
+                    success: function (data) {
+                        $("#results").html(data);
+                    },
+                    errror: function (data) {
+                        alert("Error: " + data);
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <!--header-->
+    <div class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="search">
+                    <form>
+                        <input type="text" id="txtSearch" value="Search " class="topinput" style="position: relative;"
+                               onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+                        <input type="submit" value="Go">
+                        <ul class="wrap-suggestion" id="results"></ul>
+                    </form>
+                </div>
+                <div class="header-left">
+                    <ul>
+                        <li><b style="color:white">Xin chào</b></li>
+                    </ul>
+                    <div class="cart box_1">
+                        <a asp-controller="GioHang" asp-action="index"><img src="~/images/cart.png" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @{
+            List<Supplier> suppliers = new List<Supplier>();
+            if (ViewBag.Suppliers != null)
+            {
+                foreach (var item in ViewBag.Suppliers)
+                {
+                    suppliers.Add(item);
+                }
+            }
+
+            List<Category> categories = new List<Category>();
+            if (ViewBag.Category!=null)
+            {
+                foreach(var item in ViewBag.Category)
+                {
+                    categories.Add(item);
+                }
+            }
+        }
+
+        @await Html.PartialAsync("_NavigationMenu.cshtml", categories);
+
+    </div>
+    <!--content-->
+    <div class="product">
+        <div class="container">
+            <div class="col-md-3 product-price">
+                @await Html.PartialAsync("_SupplierPartialView", suppliers)
+                <!--initiate accordion-->
+                <!---->
+                <div class="product-middle">
+                    <div class="fit-top">
+                        <h6 class="shop-top">Laptop Apple</h6>
+                        <a href="#" class="shop-now">SHOP NOW</a>
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+                @await Html.PartialAsync("_TagsPartialView", suppliers)
+                <!---->
+            </div>
+            @RenderBody()
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-top-at">
+
+                <div class="col-md-4 amet-sed">
+                    <h4>THÔNG TIN THÊM</h4>
+                    <ul class="nav-bottom">
+                        <li><a href="#">Hướng dẫn mua hàng</a></li>
+                        <li><a asp-controller="LienHe" asp-action="Index">Địa chỉ</a></li>
+                        <li><a href="#">Chuyển hàng</a></li>
+                        <li><a href="#">Thành viên</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 amet-sed ">
+                    <h4>LIÊN HỆ VỚI CHÚNG TÔI</h4>
+                    <ul class="social">
+                        <li><a href="#"><i> </i></a></li>
+                        <li><a href="#"><i class="twitter"> </i></a></li>
+                        <li><a href="#"><i class="rss"> </i></a></li>
+                        <li><a href="#"><i class="gmail"> </i></a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-4 amet-sed">
+                    <h4>THÔNG TIN KHUYẾN MÃI</h4>
+                    <p>
+                        Đăng ký nhận thông tin khuyển mãi
+                    </p>
+                    <form>
+                        <input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+                        <input type="submit" value="Sign up">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-class">
+            <p>© 2020 PTITHCM All Rights Reserved</p>
+        </div>
+    </div>
+</body>
+</html>

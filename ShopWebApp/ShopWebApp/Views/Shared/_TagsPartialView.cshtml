@@ -1,0 +1,45 @@
+﻿@model IEnumerable<ShopWebApp.Models.DataModels.Supplier>
+<style>
+    .tags-mod li {
+        font-size: 1em;
+        display: block;
+        padding: 0.3em 0.4em;
+        text-decoration: none;
+        color: #000;
+        border: 1px solid #000;
+    }
+    .tags li a {
+        font-size: 0.8em;
+    }
+
+    .tags-mod a {
+        font-size: 1em;
+        display: block;
+        padding: 0.3em 0.4em;
+        text-decoration: none;
+        color: #000;
+        border: 1px solid #000;
+        height: 50px;
+    }
+   .tags li {
+        display: inline-block;
+        float: left;
+        width: 20.8%;
+        margin: 0.5em 2% 0 0;
+        text-align: center;
+    }
+</style>
+<div class="sellers">
+    <div class="of-left-in">
+        <h3 class="tag">Tags</h3>
+    </div>
+    <div class="tags">
+        <ul>
+            @{var brands = Model.ToList();}
+            @foreach (var brand in brands)
+            {
+                <li class="tags-mod"><a class="tags-mod" asp-controller="Product" asp-action="Index" asp-route-mahang="@brand.Id">@brand.Name</a></li>
+            }
+        </ul>
+    </div>
+</div>

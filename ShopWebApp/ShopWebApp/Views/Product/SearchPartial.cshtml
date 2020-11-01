@@ -1,0 +1,67 @@
+﻿@model IEnumerable<ShopWebApp.Models.DataModels.Product>
+<style>
+    .wrap-suggestion {
+        display: block;
+        border: 1px solid #e2e2e2;
+        background: #fff;
+        position: absolute;
+        left: 0;
+        width: 280px;
+        top: 45px;
+        z-index: 9;
+        text-decoration: none;
+    }
+
+        .wrap-suggestion :hover {
+            background: #edeaea;
+        }
+
+        .wrap-suggestion img {
+            float: left;
+            width: 50px;
+            margin: 0 6px 0 0;
+        }
+
+        .wrap-suggestion a {
+            display: block;
+            overflow: hidden;
+            padding: 6px;
+            color: #333;
+            font-size: 12px;
+            text-decoration: none
+        }
+
+        .wrap-suggestion span.price {
+            font-size: 12px;
+            color: #c70100;
+            float: none;
+        }
+
+        .wrap-suggestion h3 {
+            display: block;
+            width: auto;
+            color: #333;
+            font-size: 14px;
+            font-weight: 700;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .wrap-suggestion h4 {
+            font: 14px/18px Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
+            color: #333;
+            outline: none;
+            zoom: 1;
+        }
+</style>
+@foreach (var item in Model)
+{
+    <a style="text-decoration:none" asp-action="ChiTiet" asp-route-id="@item.Id">
+        <img src="@ViewBag.domainUrl/HinhAnh/SanPham/@item.Image">
+        @*<h3>@item.product</h3>*@
+        <h4><b>Giá online:</b> <span class="price">@item.UnitPrice.ToString("#,##0")</span></h4>
+        <h4>Giá thường: <span class="price">@item.UnitPrice.ToString("#,##0")</span></h4>
+    </a>
+
+}
